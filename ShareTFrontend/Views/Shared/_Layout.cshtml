@@ -6,13 +6,22 @@
     <title>Bio Share | @ViewData["Title"]</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" />
+    <link rel="stylesheet" href="~/css/Navbar.css" />
+    <link rel="stylesheet" href="~/css/Home.css" />
+
+    <script src="https://kit.fontawesome.com/6a109108f9.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header>
         <nav class="css-navbar navbar navbar-expand-sm navbar-toggleable-sm navbar-light  box-shadow mb-3">
             <div class="container" style="flex-direction:column">
-                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">ShareTFrontend</a>
+                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index"><i class="fas fa-home"></i></a>
+                @*<a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index"><i class="fas fa-shopping-cart"></i></a>*@
+                @*<a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index"><i class="fas fa-kiwi-bird"></i></a>*@
 
+                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index"><i class="fas fa-recycle" title="Recycle"></i></a>
+                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index"><i class="fas fa-fish" title="Save the Ocean!"></i></a>
+                
             </div>
         </nav>
     </header>

@@ -1,0 +1,18 @@
+﻿/* Navbar */
+
+.navbar-brand {
+    margin: 0;
+    border-radius: 100px;
+    padding: 100%;
+}
+
+.css-navbar {
+    height: 100vh;
+    width: 75px;
+    position: fixed;
+    z-index: 999999;
+}
+
+.navbar-brand:hover {
+    background: #00ffff24;
+}
